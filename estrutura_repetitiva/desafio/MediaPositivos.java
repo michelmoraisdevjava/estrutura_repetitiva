@@ -37,7 +37,7 @@ public class MediaPositivos {
 
 		System.out.printf("%.1f%n", media);*/
 		
-		// 2ª versão
+		// 2ª versão	
 		double media = calcularMediaPositivos(sc);
 		
 		System.out.printf("Média dos númeiros inteiros positivos: %.1f%n", media);
