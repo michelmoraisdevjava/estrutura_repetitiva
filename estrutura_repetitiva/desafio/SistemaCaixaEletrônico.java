@@ -1,18 +1,20 @@
 package desafio;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class SistemaCaixaEletrônico {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
 
 		double saldoInicial = 1000.00;
 		double saque = 0;
 		double deposito = 0;
-		double saldoFinal = saldoInicial + deposito;
 		double saqueTotal = 0;
 		double depositoTotal = 0;
+		double saldoFinal = saldoInicial;
 
 		System.out.println("Menu do Sistema:");
 		System.out.println("1 - Saque");
@@ -60,5 +62,4 @@ public class SistemaCaixaEletrônico {
 		sc.close();
 
 	}
-
 }
