@@ -8,7 +8,6 @@ public class ImprimirMultiplosDeCinco {
 		int numeros = 0;
 
 		do {
-			
 			if(numeros % 5 == 0) {
 				System.out.println(numeros);
 			}
