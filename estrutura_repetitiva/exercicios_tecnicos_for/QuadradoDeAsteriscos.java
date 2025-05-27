@@ -2,9 +2,19 @@ package exercicios_tecnicos_for;
 
 import java.util.Scanner;
 
+/*Crie um programa que receba um número e exiba 
+ * um quadrado de asteriscos com esse tamanho*/
+
 public class QuadradoDeAsteriscos {
 
 	public static void main(String[] args) {
+		
+		int n = validarEntrada();
+		exibirQuadradoAsterisco(n);
+
+	}
+	
+	public static int validarEntrada() {
 		Scanner sc = new Scanner(System.in);
 
 		int n;
@@ -16,17 +26,23 @@ public class QuadradoDeAsteriscos {
 			}
 
 			n = sc.nextInt();
+			
 			if (n < 0) {
 				System.out.println("Erro: o número não pode ser negativo.");
 			}
 		} while (n < 0);
 		
-		for (int i = 0; i < n; i++) {
-			System.out.println("****");
-		}
-
 		sc.close();
-
+		return n;
 	}
-
+	
+	public static int exibirQuadradoAsterisco(int n) {
+		for (int i = 1; i <= n; i++) {
+			for(int j = 1; j <= n; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		return n;
+	}
 }
