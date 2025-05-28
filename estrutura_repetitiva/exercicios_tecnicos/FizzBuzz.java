@@ -1,4 +1,4 @@
-package exercicios_tecnicos_for;
+package exercicios_tecnicos;
 
 /*Implemente um programa que imprima os números de 1 a 100. 
  * Para múltiplos de 3, imprima "Fizz" em vez do número e, 

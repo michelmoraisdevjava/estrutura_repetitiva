@@ -1,4 +1,4 @@
-package exercicios_tecnicos_for;
+package exercicios_tecnicos;
 
 import java.util.Scanner;
 
