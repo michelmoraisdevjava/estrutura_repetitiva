@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+C:\WS - ESTUDO_JAVA\estrutura_repetitiva\estrutura_repetitiva\exercicios_tecnicos\.metadata\.plugins\org.eclipse.jdt.core
